@@ -8,11 +8,11 @@
               <h3> PART ROCK EQUIPMENT AND CONSULTATION SERVICES CO. 
               </h3>
               <p>
-                PART ROCK EQUIPMENT AND CONSULTATION SERVICES CO., SAN JOSE-NORZAGARAY RD., BRGY. BITUNGOL, NORZAGARAY, BULACAN
+                Tower 4 Unit 7-O Little Baguio Terraces, N. Domingo St., San Juan City
                 <br><br>
-                <strong>Phone:</strong> +63 999-220-3248 and  +63 955 200 4398
+                <strong>Phone:</strong> +(+63)999-220-3248  and  (+632) 8813-4231 
                 <br>
-                <strong>Email:</strong> partrockservices@gmail.com                <br>
+                <strong>Email:</strong> partrockservices@gmail.com               <br>
               </p>
               <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
@@ -56,7 +56,6 @@
         <div class="copyright">
           &copy; Copyright <strong><span>partROCK</span></strong>. All Rights Reserved
         </div>
-
       </div>
     </div>
 

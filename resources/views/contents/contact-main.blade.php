@@ -21,7 +21,8 @@
               <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                 <i class="bi bi-map"></i>
                 <h3>Our Address</h3>
-                <p>PART ROCK EQUIPMENT AND CONSULTATION SERVICES CO., SAN JOSE-NORZAGARAY RD., BRGY. BITUNGOL, NORZAGARAY, BULACAN</p>
+                <p>                Tower 4 Unit 7-O Little Baguio Terraces, N. Domingo St., San Juan City
+</p>
               </div>
             </div><!-- End Info Item -->
   
@@ -29,7 +30,7 @@
               <div class="info-item d-flex flex-column justify-content-center align-items-center">
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>contact@example.com</p>
+                <p>partrockservices@gmail.com</p>
               </div>
             </div><!-- End Info Item -->
   
@@ -37,7 +38,9 @@
               <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>(+632) 8813-4231 </p>
+                <p>(+63) 999-220-3248  </p>
+
               </div>
             </div><!-- End Info Item -->
   
@@ -46,7 +49,7 @@
           <div class="row gy-4 mt-1">
   
             <div class="col-lg-6 ">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.132430417482!2d121.07105987581055!3d14.873871485645527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397a991411f6ea3%3A0x824cb40acc83d26e!2sPart%20Rock%20Equipment%20and%20Consultation%20Services%20Co.!5e0!3m2!1sen!2sph!4v1682836820033!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div><!-- End Google Maps -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.790683489866!2d121.02774457596249!3d14.610996576820307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f91ca636e1%3A0xcd34682df897508b!2sTower%204%20Little%20Baguio%20Terraces!5e0!3m2!1sen!2sph!4v1682868543473!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div><!-- End Google Maps -->
   
             <div class="col-lg-6">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
