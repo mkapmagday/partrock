@@ -204,7 +204,7 @@
 
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
           <div class="member-img">
-            <img src="{{ asset('img/keyperson/paul.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/keyperson/paul.jpg') }}" class="img-fluid" alt="">
             <div class="social">
               <a href="#"><i class="bi bi-twitter"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
@@ -221,7 +221,7 @@
 
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
           <div class="member-img">
-            <img src="{{ asset('img/keyperson/richel.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/keyperson/richel.jpg') }}" class="img-fluid" alt="">
             <div class="social">
               <a href="#"><i class="bi bi-twitter"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
@@ -276,7 +276,7 @@
 
         <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
           <div class="member-img">
-            <img src="{{ asset('img/keyperson/artemio.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/keyperson/artemio.jpg') }}" class="img-fluid" alt="">
             <div class="social">
               <a href="#"><i class="bi bi-twitter"></i></a>
               <a href="#"><i class="bi bi-facebook"></i></a>
