@@ -30,6 +30,30 @@ Route::get('/services', function () {
     return view('services');
 })->name('services');
 
+Route::get('/services-details1', function(){
+    return view('service-details');
+})->name('services-details1');
+
+Route::get('/services-details2', function(){
+    return view('service-details');
+})->name('services-details2');
+
+Route::get('/services-details3', function(){
+    return view('service-details');
+})->name('services-details3');
+
+Route::get('/services-details4', function(){
+    return view('service-details');
+})->name('services-details4');
+
+Route::get('/services-details5', function(){
+    return view('service-details');
+})->name('services-details5');
+
+Route::get('/services-details6', function(){
+    return view('service-details');
+})->name('services-details6');
+
 Route::get('/projects', function () {
     return view('projects');
 })->name('projects');

@@ -84,7 +84,7 @@
                     </div>
                     <h3>Mining</h3>
                     <p>Welcome to our mining services! Our team of mining experts provides a wide range of services to help you navigate the complex and ever-changing landscape of the mining industry. From exploration to production, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include mining engineering, geology, resource estimation, mine planning, operations management, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details1')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -96,7 +96,7 @@
                     </div>
                     <h3>Construction</h3>
                     <p>Welcome to our construction services! Our team of construction experts provides a wide range of services to help you build your dream project. From design to completion, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include construction management, project planning, design and engineering, contracting, construction supervision, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details2')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -108,7 +108,7 @@
                     </div>
                     <h3>Project Management</h3>
                     <p>Welcome to our project management services! Our team of project management experts provides a wide range of services to help you achieve your project goals. We offer practical advice, innovative solutions, and cutting-edge technologies to help you plan, execute, and control your projects. Our services include project planning, risk management, scheduling, cost management, quality control, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details3')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -120,7 +120,7 @@
                     </div>
                     <h3>Land Development</h3>
                     <p>Welcome to our land development services! Our team of land development experts provides a wide range of services to help you develop your land. From planning to implementation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include land use planning, site design, zoning, permitting, environmental impact assessment, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details4')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -132,7 +132,7 @@
                     </div>
                     <h3>Smart Home Automation</h3>
                     <p>Welcome to our smart home automation services! Our team of experts provides a wide range of services to help you automate your home. From design to installation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include home automation design, system installation, programming, maintenance, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details5')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -144,7 +144,7 @@
                     </div>
                     <h3>Trading</h3>
                     <p>Welcome to our trading services! Our team of trading experts provides a wide range of services to help you invest in the mining and construction industries. We offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your investment goals. Our services include investment analysis, market research, trading strategy development, risk management, and more.</p>
-                    <a href="service-details.html" class="readmore stretched-link">Learn more <i
+                    <a href="{{route('services-details6')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
                 </div>
             </div><!-- End Service Item -->
@@ -444,7 +444,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-            <h2>Our Projects</h2>
+            <h2>Sample Projects</h2>
 
         </div>
 
@@ -453,7 +453,7 @@
 
             <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
                 <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-culvert">Culvert</li>
+                <li data-filter=".filter-culvert">Culvert Antipolo</li>
                 <li data-filter=".filter-mezzanine">One-Storey with Mezzanine</li>
             </ul><!-- End Projects Filters -->
 
@@ -759,11 +759,11 @@
                         </div>
                     </div>
                 </div><!-- End Projects Item -->
+                
             </div><!-- End Projects Container -->
-
         </div>
-
     </div>
+
 </section><!-- End Our Projects Section -->
 
 <!-- ======= Testimonials Section ======= -->
