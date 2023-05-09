@@ -29,19 +29,23 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About us</a></li>
               <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">CSR</a></li>
+              <li><a href="#">Contact</a></li>
+
             </ul>
           </div><!-- End footer links column-->
 
           <div class="col-lg-3 col-md-4 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
+              <li><a href="#">Mining</a></li>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">Project Management</a></li>
+              <li><a href="#">Land Development</a></li>
+              <li><a href="#">Smart Home Automation</a></li>
+              <li><a href="#">Trading</a></li>
+
             </ul>
           </div><!-- End footer links column-->
 

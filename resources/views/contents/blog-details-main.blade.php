@@ -1,11 +1,11 @@
 
     <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url({{asset('img/breadcrumbs-bg.jpg')}});">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Blog Details</h2>
+        <h2>CSR Details</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{route('home')}}">Home</a></li>
           <li>Blog Details</li>
         </ol>
 
@@ -23,61 +23,53 @@
             <article class="blog-details">
 
               <div class="post-img">
-                <img src="{{ asset('img/blog/blog-1.jpg') }}" alt="" class="img-fluid">
+                <img src="{{ asset('img/csr/1.jpg') }}" alt="" class="img-fluid">
               </div>
 
-              <h2 class="title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h2>
+              <h2 class="title">Outreach Program</h2>
 
               <div class="meta-top">
                 <ul>
-                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">partROCK</a></li>
                   <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2020-01-01">Jan 1, 2022</time></a></li>
-                  <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a href="blog-details.html">12 Comments</a></li>
                 </ul>
               </div><!-- End meta top -->
 
               <div class="content">
                 <p>
-                  Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                  Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.
+                  Welcome to our Outreach Program! Our mission is to help those in need in our community by providing valuable resources and support. We offer a range of services, including education, food assistance, and community building.
+
                 </p>
 
-                <p>
-                  Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
-                </p>
 
-                <blockquote>
-                  <p>
-                    Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                  </p>
-                </blockquote>
-
-                <p>
-                  Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
-                  Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque.
-                  Iusto autem itaque. Repudiandae hic quae aspernatur ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
-                </p>
-
-                <h3>Et quae iure vel ut odit alias.</h3>
+                {{-- <h3>Et quae iure vel ut odit alias.</h3>
                 <p>
                   Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero eum nesciunt aliquid qui.
                   Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea.
                   Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem accusamus mollitia aut atque aut.
-                </p>
-                <img src="{{ asset('img/blog/blog-inside-post.jpg') }}" class="img-fluid" alt="">
+                </p> --}}
+                <img src="{{ asset('img/csr/10.jpg') }}" class="img-fluid" alt="">
 
-                <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
+                <h3>Education.</h3>
                 <p>
-                  Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem facilis hic dolorum dolores vel.
-                  Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a quam vitae.
+                  Our education program is designed to help children from low-income families acquire the skills they need to succeed in school and beyond. We provide tutoring and other academic support to ensure that each child has the opportunity to reach their full potential.
+
                 </p>
+
+                  <p>
+                    In addition to our education program, we also offer food assistance to families who are struggling to make ends meet. We believe that no one should go hungry, and we work hard to ensure that every person in our community has access to healthy, nutritious meals.
+
+                  </p>
+
                 <p>
-                  Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                  Finally, we believe that community building is essential to the success of our program. We work to create a supportive and inclusive environment where everyone feels welcome and valued. Our outreach program is made possible by the generosity of our donors and volunteers, and we are grateful for their support.
+
                 </p>
+
 
               </div><!-- End post content -->
 
-              <div class="meta-bottom">
+              {{-- <div class="meta-bottom">
                 <i class="bi bi-folder"></i>
                 <ul class="cats">
                   <li><a href="#">Business</a></li>
@@ -89,11 +81,11 @@
                   <li><a href="#">Tips</a></li>
                   <li><a href="#">Marketing</a></li>
                 </ul>
-              </div><!-- End meta bottom -->
+              </div><!-- End meta bottom --> --}}
 
             </article><!-- End blog post -->
 
-            <div class="post-author d-flex align-items-center">
+            {{-- <div class="post-author d-flex align-items-center">
               <img src="{{ asset('img/blog/blog-author.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
               <div>
                 <h4>Jane Smith</h4>
@@ -230,7 +222,7 @@
 
               </div>
 
-            </div><!-- End blog comments -->
+            </div><!-- End blog comments --> --}}
 
           </div>
 
@@ -238,15 +230,14 @@
 
             <div class="sidebar">
 
-              <div class="sidebar-item search-form">
-                <h3 class="sidebar-title">Search</h3>
+              {{-- <div class="sidebar-item search-form">
                 <form action="" class="mt-3">
                   <input type="text">
                   <button type="submit"><i class="bi bi-search"></i></button>
                 </form>
-              </div><!-- End sidebar search formn-->
+              </div><!-- End sidebar search formn--> --}}
 
-              <div class="sidebar-item categories">
+              {{-- <div class="sidebar-item categories">
                 <h3 class="sidebar-title">Categories</h3>
                 <ul class="mt-3">
                   <li><a href="#">General <span>(25)</span></a></li>
@@ -256,49 +247,43 @@
                   <li><a href="#">Creative <span>(8)</span></a></li>
                   <li><a href="#">Educaion <span>(14)</span></a></li>
                 </ul>
-              </div><!-- End sidebar categories-->
+              </div><!-- End sidebar categories--> --}}
 
               <div class="sidebar-item recent-posts">
-                <h3 class="sidebar-title">Recent Posts</h3>
 
                 <div class="mt-3">
 
                   <div class="post-item mt-3">
-                    <img src="{{ asset('img/blog/blog-recent-1.jpg') }}" alt="">
+                    <img src="{{ asset('img/csr/2.jpg') }}" alt="" data-gallery="portfolio-gallery-construction" class="glightbox preview-link">
                     <div>
-                      <h4><a href="blog-details.html">Nihil blanditiis at in nihil autem</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="{{ asset('img/blog/blog-recent-2.jpg') }}" alt="">
+                    <img src="{{ asset('img/csr/3.jpg') }}" alt="" data-gallery="portfolio-gallery-construction" class="glightbox preview-link">
                     <div>
-                      <h4><a href="blog-details.html">Quidem autem et impedit</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="{{ asset('img/blog/blog-recent-3.jpg') }}" alt="">
+                    <img src="{{ asset('img/csr/4.jpg') }}" alt="" data-gallery="portfolio-gallery-construction" class="glightbox preview-link">
                     <div>
-                      <h4><a href="blog-details.html">Id quia et et ut maxime similique occaecati ut</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="{{ asset('img/blog/blog-recent-4.jpg') }}" alt="">
+                    <img src="{{ asset('img/csr/5.jpg') }}" alt="" data-gallery="portfolio-gallery-construction" class="glightbox preview-link">
                     <div>
-                      <h4><a href="blog-details.html">Laborum corporis quo dara net para</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
 
                   <div class="post-item">
-                    <img src="{{ asset('img/blog/blog-recent-5.jpg') }}" alt="">
+                    <img src="{{ asset('img/csr/6.jpg') }}" alt="" data-gallery="portfolio-gallery-construction" class="glightbox preview-link">
                     <div>
-                      <h4><a href="blog-details.html">Et dolores corrupti quae illo quod dolor</a></h4>
                       <time datetime="2020-01-01">Jan 1, 2020</time>
                     </div>
                   </div><!-- End recent post item-->
@@ -307,7 +292,7 @@
 
               </div><!-- End sidebar recent posts-->
 
-              <div class="sidebar-item tags">
+              {{-- <div class="sidebar-item tags">
                 <h3 class="sidebar-title">Tags</h3>
                 <ul class="mt-3">
                   <li><a href="#">App</a></li>
@@ -322,7 +307,7 @@
                   <li><a href="#">Tips</a></li>
                   <li><a href="#">Marketing</a></li>
                 </ul>
-              </div><!-- End sidebar tags-->
+              </div><!-- End sidebar tags--> --}}
 
             </div><!-- End Blog Sidebar -->
 

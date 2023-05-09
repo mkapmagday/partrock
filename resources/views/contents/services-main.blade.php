@@ -15,7 +15,7 @@
 <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
+        {{-- <div class="section-header">
             <h2>Services</h2>
             <p>Our company offers a wide range of construction services including aggregates, cement, filling materials,
                 silica, coal, iron ore, dolomite, boulders, dredged materials, mining contractor, development general
@@ -23,7 +23,7 @@
                 high-quality materials and equipment, coupled with skilled professionals who are committed to delivering
                 excellent results. We prioritize safety, efficiency, and customer satisfaction in every project we
                 undertake.</p>
-        </div>
+        </div> --}}
 
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -236,7 +236,7 @@
     </div>
 </section><!-- End Services Section -->
 
-<!-- ======= Servie Cards Section ======= -->
+{{-- <!-- ======= Servie Cards Section ======= -->
 <section id="services-cards" class="services-cards">
     <div class="container" data-aos="fade-up">
 
@@ -290,7 +290,7 @@
         </div>
 
     </div>
-</section><!-- End Servie Cards Section -->
+</section><!-- End Servie Cards Section --> --}}
 
 {{-- <!-- ======= Alt Services Section 2 ======= -->
 <section id="alt-services-2" class="alt-services section-bg">

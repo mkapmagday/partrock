@@ -3,7 +3,12 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8 col-sm-10 col-12 text-center">
                 <h2 data-aos="fade-down">Welcome to <span>partROCK Equipment & Consultation Services Co.</span></h2>
-                <p data-aos="fade-up">a leading provider of construction, mining, and consultation solutions. Our company offers a wide range of services, including equipment rental, maintenance and repair, project management, and technical consulting. We understand the challenges that come with managing large-scale projects in the construction and mining industries, and our team of experts is here to help you navigate every step of the way. With a commitment to quality, safety, and customer satisfaction, we pride ourselves on delivering reliable, cost-effective solutions to meet your unique needs. Contact us today to learn more about how we can help you achieve your goals.</p>
+                <p data-aos="fade-up">We provide construction, mining, and consultation services. Our offerings include equipment rental, maintenance, project management, and technical consulting. With a focus on quality, safety, and customer satisfaction, we deliver reliable and cost-effective solutions to meet your needs. Contact us to learn more.
+
+
+
+
+                </p>
                 <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
             </div>
         </div>

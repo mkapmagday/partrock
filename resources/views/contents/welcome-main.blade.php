@@ -92,7 +92,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="fa-thin fa-trowel-bricks"></i>
+                        <i class="fa-solid fa-trowel-bricks"></i>
                     </div>
                     <h3>Construction</h3>
                     <p>Welcome to our construction services! Our team of construction experts provides a wide range of services to help you build your dream project. From design to completion, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include construction management, project planning, design and engineering, contracting, construction supervision, and more.</p>
@@ -103,8 +103,9 @@
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-item position-relative">
+
                     <div class="icon">
-                        <i class="fa-regular fa-triangle-person-digging"></i>
+                        <i class="fa-solid fa-tasks"></i>
                     </div>
                     <h3>Project Management</h3>
                     <p>Welcome to our project management services! Our team of project management experts provides a wide range of services to help you achieve your project goals. We offer practical advice, innovative solutions, and cutting-edge technologies to help you plan, execute, and control your projects. Our services include project planning, risk management, scheduling, cost management, quality control, and more.</p>
@@ -116,7 +117,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="fa-solid fa-trowel-bricks"></i>
+                        <i class="fa-solid fa-globe-americas"></i>
                     </div>
                     <h3>Land Development</h3>
                     <p>Welcome to our land development services! Our team of land development experts provides a wide range of services to help you develop your land. From planning to implementation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include land use planning, site design, zoning, permitting, environmental impact assessment, and more.</p>
@@ -128,7 +129,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="fa-solid fa-helmet-safety"></i>
+                        <i class="fa-solid fa-home"></i>
                     </div>
                     <h3>Smart Home Automation</h3>
                     <p>Welcome to our smart home automation services! Our team of experts provides a wide range of services to help you automate your home. From design to installation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include home automation design, system installation, programming, maintenance, and more.</p>
@@ -140,7 +141,7 @@
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-item position-relative">
                     <div class="icon">
-                        <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        <i class="fa-solid fa-exchange"></i>
                     </div>
                     <h3>Trading</h3>
                     <p>Welcome to our trading services! Our team of trading experts provides a wide range of services to help you invest in the mining and construction industries. We offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your investment goals. Our services include investment analysis, market research, trading strategy development, risk management, and more.</p>
@@ -465,7 +466,6 @@
                         <img src="{{ asset('img/mezzanine/1.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 1</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/1.jpg') }}" title="Construction 1"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -480,7 +480,6 @@
                         <img src="{{ asset('img/culvert/1.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 2</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/1.jpg') }}" title="Construction 2"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -495,7 +494,6 @@
                         <img src="{{ asset('img/mezzanine/2.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/2.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -510,7 +508,6 @@
                         <img src="{{ asset('img/culvert/2.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/2.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -525,7 +522,6 @@
                         <img src="{{ asset('img/mezzanine/3.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/3.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -540,7 +536,6 @@
                         <img src="{{ asset('img/culvert/3.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/3.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -555,7 +550,6 @@
                         <img src="{{ asset('img/mezzanine/4.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/4.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -570,7 +564,6 @@
                         <img src="{{ asset('img/culvert/4.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/4.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -585,7 +578,6 @@
                         <img src="{{ asset('img/mezzanine/5.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/5.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -600,7 +592,6 @@
                         <img src="{{ asset('img/culvert/5.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/5.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -615,7 +606,6 @@
                         <img src="{{ asset('img/mezzanine/6.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/6.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -630,7 +620,6 @@
                         <img src="{{ asset('img/culvert/6.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/6.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -645,7 +634,6 @@
                         <img src="{{ asset('img/mezzanine/7.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/7.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -660,7 +648,6 @@
                         <img src="{{ asset('img/culvert/7.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/7.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -675,7 +662,6 @@
                         <img src="{{ asset('img/mezzanine/8.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/8.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -690,7 +676,6 @@
                         <img src="{{ asset('img/culvert/8.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/8.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -705,7 +690,6 @@
                         <img src="{{ asset('img/mezzanine/9.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/9.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -720,7 +704,6 @@
                         <img src="{{ asset('img/culvert/9.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/9.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -735,7 +718,6 @@
                         <img src="{{ asset('img/mezzanine/10.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/mezzanine/10.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -750,7 +732,6 @@
                         <img src="{{ asset('img/culvert/10.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
-                            <p>Lorem ipsum, dolor sit amet consectetur</p>
                             <a href="{{ asset('img/culvert/10.jpg') }}" title="Construction 3"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
@@ -916,21 +897,21 @@
                 <div class="post-item position-relative h-100">
 
                     <div class="post-img position-relative overflow-hidden">
-                        <img src="{{ asset('img/blog/blog-1.jpg') }}" class="img-fluid" alt="">
-                        <span class="post-date">December 12</span>
+                        <img src="{{ asset('img/csr/1.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
                     </div>
 
                     <div class="post-content d-flex flex-column">
 
-                        <h3 class="post-title">Eum ad dolor et. Autem aut fugiat debitis</h3>
+                        <h3 class="post-title">Outreach</h3>
 
                         <div class="meta d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                                <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
                             </div>
                             <span class="px-3 text-black-50">/</span>
                             <div class="d-flex align-items-center">
-                                <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Welfare Program</span>
                             </div>
                         </div>
 
@@ -944,7 +925,7 @@
                 </div>
             </div><!-- End post item -->
 
-            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            {{-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="post-item position-relative h-100">
 
                     <div class="post-img position-relative overflow-hidden">
@@ -1006,7 +987,7 @@
                     </div>
 
                 </div>
-            </div><!-- End post item -->
+            </div><!-- End post item --> --}}
 
         </div>
 
