@@ -3,10 +3,10 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url({{ asset('img/breadcrumbs-bg.jpg') }})">
         <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
   
-          <h2>Blog</h2>
+          <h2>CSR</h2>
           <ol>
             <li><a href="{{route('home')}}">Home</a></li>
-            <li>Blog</li>
+            <li>CSR</li>
           </ol>
   
         </div>
@@ -18,41 +18,38 @@
   
           <div class="row gy-4 posts-list">
   
-            <div class="col-xl-4 col-md-6">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div class="post-item position-relative h-100">
-  
-                <div class="post-img position-relative overflow-hidden">
-                  <img src="{{ asset('img/blog/blog-1.jpg') }}" class="img-fluid" alt="">
-                  <span class="post-date">December 12</span>
-                </div>
-  
-                <div class="post-content d-flex flex-column">
-  
-                  <h3 class="post-title">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</h3>
-  
-                  <div class="meta d-flex align-items-center">
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-person"></i> <span class="ps-2">John Doe</span>
-                    </div>
-                    <span class="px-3 text-black-50">/</span>
-                    <div class="d-flex align-items-center">
-                      <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-                    </div>
+
+                  <div class="post-img position-relative overflow-hidden">
+                      <img src="{{ asset('img/csr/1.jpg') }}" class="img-fluid" alt="">
+                      <span class="post-date"></span>
                   </div>
-  
-                  <p>
-                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                  </p>
-  
-                  <hr>
-  
-                  <a href="{{route('blog-details')}}" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-  
-                </div>
-  
+
+                  <div class="post-content d-flex flex-column">
+
+                      <h3 class="post-title">Outreach</h3>
+
+                      <div class="meta d-flex align-items-center">
+                          <div class="d-flex align-items-center">
+                              <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                          </div>
+                          <span class="px-3 text-black-50">/</span>
+                          <div class="d-flex align-items-center">
+                              <i class="bi bi-folder2"></i> <span class="ps-2">Welfare Program</span>
+                          </div>
+                      </div>
+
+                      <hr>
+
+                      <a href="{{ route('blog-details') }}" class="readmore stretched-link"><span>Read
+                              More</span><i class="bi bi-arrow-right"></i></a>
+
+                  </div>
+
               </div>
-            </div><!-- End post list item -->
-  
+          </div><!-- End post item -->
+{{--   
             <div class="col-xl-4 col-md-6">
               <div class="post-item position-relative h-100">
   
@@ -226,7 +223,7 @@
                 </div>
   
               </div>
-            </div><!-- End post list item -->
+            </div><!-- End post list item --> --}}
   
           </div><!-- End blog posts list -->
   

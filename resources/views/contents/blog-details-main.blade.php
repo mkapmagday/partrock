@@ -21,7 +21,6 @@
           <div class="col-lg-8">
 
             <article class="blog-details">
-
               <div class="post-img">
                 <img src="{{ asset('img/csr/1.jpg') }}" alt="" class="img-fluid">
               </div>
