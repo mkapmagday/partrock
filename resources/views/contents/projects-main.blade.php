@@ -350,15 +350,15 @@
                 <div class="swiper-wrapper align-items-center">
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('img/website/dredging1.png') }}" alt="" style="max-height: 972px">
+                        <img src="{{ asset('img/website/dredging1.jpg') }}" alt="" style="max-height: 972px">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('img/website/dredging2.png') }}" alt="" style="max-height: 972px">
+                        <img src="{{ asset('img/website/dredging2.jpg') }}" alt="" style="max-height: 972px">
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('img/website/dredging3.png') }}" alt="" style="max-height: 972px">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="" style="max-height: 972px">
                     </div>
 
                 </div>
