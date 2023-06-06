@@ -20,7 +20,7 @@
   
             <div class="col-lg-4">
               <div class="services-list">
-                <a href="{{route('services-details1')}}" class="active">Mining</a>
+                <a href="{{route('services-details1')}}" class="active">Mining & Dredging</a>
                 <a href="{{route('services-details2')}}">Construction</a>
                 <a href="{{route('services-details3')}}">Project Management</a>
                 <a href="{{route('services-details4')}}">Land Development</a>

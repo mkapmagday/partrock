@@ -82,7 +82,7 @@
                     <div class="icon">
                         <i class="fa-solid fa-hill-rockslide"></i>
                     </div>
-                    <h3>Mining</h3>
+                    <h3>Mining & Dredging</h3>
                     <p>Welcome to our mining services! Our team of mining experts provides a wide range of services to help you navigate the complex and ever-changing landscape of the mining industry. From exploration to production, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include mining engineering, geology, resource estimation, mine planning, operations management, and more.</p>
                     <a href="{{route('services-details1')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>
@@ -445,7 +445,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-            <h2>Sample Projects</h2>
+            <h2>Projects</h2>
 
         </div>
 
@@ -456,6 +456,7 @@
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-culvert">Culvert Antipolo</li>
                 <li data-filter=".filter-mezzanine">One-Storey with Mezzanine</li>
+                <li data-filter=".filter-valleverde">Valle Verde</li>
             </ul><!-- End Projects Filters -->
 
             <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
@@ -481,6 +482,20 @@
                         <div class="portfolio-info">
                             <h4>Construction 2</h4>
                             <a href="{{ asset('img/culvert/1.jpg') }}" title="Construction 2"
+                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Projects Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
+                    <div class="portfolio-content h-100">
+                        <img src="{{ asset('img/valleverde/1.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/1.jpg') }}" title="Construction 2"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
                             <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
@@ -517,6 +532,20 @@
                     </div>
                 </div><!-- End Projects Item -->
 
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
+                    <div class="portfolio-content h-100">
+                        <img src="{{ asset('img/valleverde/2.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/2.jpg') }}" title="Construction 2"
+                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Projects Item -->
+
                 <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
                     <div class="portfolio-content h-100">
                         <img src="{{ asset('img/mezzanine/3.jpg') }}" class="img-fluid" alt="">
@@ -537,6 +566,20 @@
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
                             <a href="{{ asset('img/culvert/3.jpg') }}" title="Construction 3"
+                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Projects Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
+                    <div class="portfolio-content h-100">
+                        <img src="{{ asset('img/valleverde/3.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/3.jpg') }}" title="Construction 2"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
                             <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
@@ -573,6 +616,20 @@
                     </div>
                 </div><!-- End Projects Item -->
 
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
+                    <div class="portfolio-content h-100">
+                        <img src="{{ asset('img/valleverde/4.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/4.jpg') }}" title="Construction 2"
+                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Projects Item -->
+
                 <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
                     <div class="portfolio-content h-100">
                         <img src="{{ asset('img/mezzanine/5.jpg') }}" class="img-fluid" alt="">
@@ -593,6 +650,20 @@
                         <div class="portfolio-info">
                             <h4>Construction 3</h4>
                             <a href="{{ asset('img/culvert/5.jpg') }}" title="Construction 3"
+                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Projects Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
+                    <div class="portfolio-content h-100">
+                        <img src="{{ asset('img/valleverde/5.jpg') }}" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/5.jpg') }}" title="Construction 2"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
                             <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
@@ -629,26 +700,12 @@
                     </div>
                 </div><!-- End Projects Item -->
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-valleverde">
                     <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/mezzanine/7.jpg') }}" class="img-fluid" alt="">
+                        <img src="{{ asset('img/valleverde/6.jpg') }}" class="img-fluid" alt="">
                         <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/mezzanine/7.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details2') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-culvert">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/culvert/7.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/culvert/7.jpg') }}" title="Construction 3"
+                            <h4>Construction 2</h4>
+                            <a href="{{ asset('img/valleverde/6.jpg') }}" title="Construction 2"
                                 data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
                                     class="bi bi-zoom-in"></i></a>
                             <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
@@ -657,90 +714,7 @@
                     </div>
                 </div><!-- End Projects Item -->
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/mezzanine/8.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/mezzanine/8.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details2') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-culvert">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/culvert/8.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/culvert/8.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/mezzanine/9.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/mezzanine/9.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details2') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-culvert">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/culvert/9.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/culvert/9.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-mezzanine">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/mezzanine/10.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/mezzanine/10.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details2') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-culvert">
-                    <div class="portfolio-content h-100">
-                        <img src="{{ asset('img/culvert/10.jpg') }}" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Construction 3</h4>
-                            <a href="{{ asset('img/culvert/10.jpg') }}" title="Construction 3"
-                                data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i
-                                    class="bi bi-zoom-in"></i></a>
-                            <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i
-                                    class="bi bi-link-45deg"></i></a>
-                        </div>
-                    </div>
-                </div><!-- End Projects Item -->
-                
+ 
             </div><!-- End Projects Container -->
         </div>
     </div>
@@ -925,31 +899,31 @@
                 </div>
             </div><!-- End post item -->
 
-            {{-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="post-item position-relative h-100">
 
                     <div class="post-img position-relative overflow-hidden">
-                        <img src="{{ asset('img/blog/blog-2.jpg') }}" class="img-fluid" alt="">
-                        <span class="post-date">July 17</span>
+                        <img src="{{ asset('img/csr/medical/2.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
                     </div>
 
                     <div class="post-content d-flex flex-column">
 
-                        <h3 class="post-title">Et repellendus molestiae qui est sed omnis</h3>
+                        <h3 class="post-title">Medical</h3>
 
                         <div class="meta d-flex align-items-center">
                             <div class="d-flex align-items-center">
-                                <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
                             </div>
                             <span class="px-3 text-black-50">/</span>
                             <div class="d-flex align-items-center">
-                                <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Welfare Program</span>
                             </div>
                         </div>
 
                         <hr>
 
-                        <a href="{{ route('blog-details') }}" class="readmore stretched-link"><span>Read
+                        <a href="{{ route('blog-details2') }}" class="readmore stretched-link"><span>Read
                                 More</span><i class="bi bi-arrow-right"></i></a>
 
                     </div>
@@ -957,37 +931,7 @@
                 </div>
             </div><!-- End post item -->
 
-            <div class="col-xl-4 col-md-6">
-                <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
 
-                    <div class="post-img position-relative overflow-hidden">
-                        <img src="{{ asset('img/blog/blog-3.jpg') }}" class="img-fluid" alt="">
-                        <span class="post-date">September 05</span>
-                    </div>
-
-                    <div class="post-content d-flex flex-column">
-
-                        <h3 class="post-title">Quia assumenda est et veritati tirana ploder</h3>
-
-                        <div class="meta d-flex align-items-center">
-                            <div class="d-flex align-items-center">
-                                <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-                            </div>
-                            <span class="px-3 text-black-50">/</span>
-                            <div class="d-flex align-items-center">
-                                <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                            </div>
-                        </div>
-
-                        <hr>
-
-                        <a href="{{ route('blog-details') }}" class="readmore stretched-link"><span>Read
-                                More</span><i class="bi bi-arrow-right"></i></a>
-
-                    </div>
-
-                </div>
-            </div><!-- End post item --> --}}
 
         </div>
 

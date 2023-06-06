@@ -82,6 +82,10 @@ Route::get('/blog-details', function(){
     return view('blog-details');
 })->name('blog-details');
 
+Route::get('/blog-details2', function(){
+    return view('blog-details2');
+})->name('blog-details2');
+
 Route::post('/send-email', [SendEmailController::class, 'sendEmail'])->name('sendEmail');
 
 

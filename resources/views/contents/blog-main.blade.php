@@ -1,34 +1,64 @@
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url({{ asset('img/breadcrumbs-bg.jpg') }})">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url({{ asset('img/breadcrumbs-bg.jpg') }})">
-        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-  
-          <h2>CSR</h2>
-          <ol>
-            <li><a href="{{route('home')}}">Home</a></li>
+        <h2>CSR</h2>
+        <ol>
+            <li><a href="{{ route('home') }}">Home</a></li>
             <li>CSR</li>
-          </ol>
-  
-        </div>
-      </div><!-- End Breadcrumbs -->
-  
-      <!-- ======= Blog Section ======= -->
-      <section id="blog" class="blog">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-  
-          <div class="row gy-4 posts-list">
-  
+        </ol>
+
+    </div>
+</div><!-- End Breadcrumbs -->
+
+<!-- ======= Blog Section ======= -->
+<section id="blog" class="blog">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 posts-list">
+
             <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/csr/1.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
+                    </div>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Outreach</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Welfare Program</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('blog-details') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
+                </div>
+            </div><!-- End post item -->
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
               <div class="post-item position-relative h-100">
 
                   <div class="post-img position-relative overflow-hidden">
-                      <img src="{{ asset('img/csr/1.jpg') }}" class="img-fluid" alt="">
+                      <img src="{{ asset('img/csr/medical/2.jpg') }}" class="img-fluid" alt="">
                       <span class="post-date"></span>
                   </div>
 
                   <div class="post-content d-flex flex-column">
 
-                      <h3 class="post-title">Outreach</h3>
+                      <h3 class="post-title">Medical</h3>
 
                       <div class="meta d-flex align-items-center">
                           <div class="d-flex align-items-center">
@@ -42,14 +72,14 @@
 
                       <hr>
 
-                      <a href="{{ route('blog-details') }}" class="readmore stretched-link"><span>Read
+                      <a href="{{ route('blog-details2') }}" class="readmore stretched-link"><span>Read
                               More</span><i class="bi bi-arrow-right"></i></a>
 
                   </div>
 
               </div>
           </div><!-- End post item -->
-{{--   
+            {{--   
             <div class="col-xl-4 col-md-6">
               <div class="post-item position-relative h-100">
   
@@ -224,10 +254,9 @@
   
               </div>
             </div><!-- End post list item --> --}}
-  
-          </div><!-- End blog posts list -->
-  
-        
-        </div>
-      </section><!-- End Blog Section -->
-  
+
+        </div><!-- End blog posts list -->
+
+
+    </div>
+</section><!-- End Blog Section -->

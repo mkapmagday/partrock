@@ -31,7 +31,7 @@
                     <div class="icon">
                         <i class="fa-solid fa-hill-rockslide"></i>
                     </div>
-                    <h3>Mining</h3>
+                    <h3>Mining & Dredging</h3>
                     <p>Welcome to our mining services! Our team of mining experts provides a wide range of services to help you navigate the complex and ever-changing landscape of the mining industry. From exploration to production, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include mining engineering, geology, resource estimation, mine planning, operations management, and more.</p>
                     <a href="{{route('services-details1')}}" class="readmore stretched-link">Learn more <i
                             class="bi bi-arrow-right"></i></a>

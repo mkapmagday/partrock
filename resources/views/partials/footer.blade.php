@@ -10,7 +10,7 @@
               <p>
                 Tower 4 Unit 7-O Little Baguio Terraces, N. Domingo St., San Juan City
                 <br><br>
-                <strong>Phone:</strong> +(+63)999-220-3248  and  (+632) 8813-4231 
+                <strong>Phone:</strong> +(+63)955-200-4398  and  (+632) 8813-4231 
                 <br>
                 <strong>Email:</strong> partrockservices@gmail.com               <br>
               </p>
