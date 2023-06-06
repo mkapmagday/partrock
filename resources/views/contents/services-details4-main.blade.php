@@ -20,7 +20,7 @@
   
             <div class="col-lg-4">
               <div class="services-list">
-                <a href="{{route('services-details1')}}" >Mining</a>
+                <a href="{{route('services-details1')}}" >Mining & Dredging</a>
                 <a href="{{route('services-details2')}}">Construction</a>
                 <a href="{{route('services-details3')}}">Project Management</a>
                 <a href="{{route('services-details4')}}" class="active">Land Development</a>
@@ -33,6 +33,14 @@
             </div>
   
             <div class="col-lg-8">
+              <div class="slides-1 portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
               <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
               <h3>
                 Land development is a complex process that involves transforming raw land into a functional and profitable asset. Our land development services provide clients with the expertise and tools needed to manage all aspects of the land development process, from land acquisition to project completion.</h3>

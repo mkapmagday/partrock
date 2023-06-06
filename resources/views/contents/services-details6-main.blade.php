@@ -14,6 +14,7 @@
   
       <!-- ======= Service Details Section ======= -->
       <section id="service-details" class="service-details">
+        
         <div class="container" data-aos="fade-up" data-aos-delay="100">
   
           <div class="row gy-4">
@@ -31,6 +32,14 @@
             </div>
   
             <div class="col-lg-8">
+              <div class="slides-1 portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
               <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
               <h3>Our trading services specialize in providing high-quality mining and construction materials to our clients worldwide. We are experts in sourcing, trading, and delivering various types of mining and construction materials, including silica, coal, iron ore, dolomite, boulders, dredged materials, dredging, earthworks, and more.</h3>
               <p>

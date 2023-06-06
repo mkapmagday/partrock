@@ -32,6 +32,14 @@
             </div>
   
             <div class="col-lg-8">
+              <div class="slides-1 portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
               <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
               <h3>Construction is the process of creating physical infrastructure, such as buildings, roads, bridges, and other structures. Our construction services provide clients with a comprehensive range of solutions, from initial design to final delivery, ensuring that all construction projects are completed on time, within budget, and to the highest quality standards.</h3>
               <p>

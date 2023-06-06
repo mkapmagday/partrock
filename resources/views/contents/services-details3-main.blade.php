@@ -33,6 +33,14 @@
             </div>
   
             <div class="col-lg-8">
+              <div class="slides-1 portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
               <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
               <h3>Project management is a critical component of successful project delivery, ensuring that projects are completed on time, within budget, and to the satisfaction of all stakeholders. Our project management services provide clients with the expertise and tools needed to plan, execute, and control projects of any size and complexity.</h3>
               <p>

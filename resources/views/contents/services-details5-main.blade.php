@@ -32,6 +32,14 @@
             </div>
   
             <div class="col-lg-8">
+              <div class="slides-1 portfolio-details-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+
+                    <div class="swiper-slide">
+                        <img src="{{ asset('img/website/dredging3.jpg') }}" alt="">
+                    </div>
+                </div>
+            </div>
               <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
               <h3>Our smart home automation services provide homeowners with the ability to control and automate various aspects of their homes, including lighting, temperature, security, entertainment, and more. With our cutting-edge technology and expertise, we help homeowners create smart homes that are efficient, convenient, and secure.
 
