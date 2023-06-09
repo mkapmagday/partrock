@@ -316,7 +316,7 @@
   </section><!-- End Our Team Section -->
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials section-bg">
+  {{-- <section id="testimonials" class="testimonials section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="section-header">
@@ -422,4 +422,4 @@
       </div>
 
     </div>
-  </section><!-- End Testimonials Section -->
+  </section><!-- End Testimonials Section --> --}}
