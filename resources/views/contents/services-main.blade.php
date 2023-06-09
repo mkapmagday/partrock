@@ -15,7 +15,7 @@
 <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
 
-        {{-- <div class="section-header">
+        <div class="section-header">
             <h2>Services</h2>
             <p>Our company offers a wide range of construction services including aggregates, cement, filling materials,
                 silica, coal, iron ore, dolomite, boulders, dredged materials, mining contractor, development general
@@ -23,81 +23,201 @@
                 high-quality materials and equipment, coupled with skilled professionals who are committed to delivering
                 excellent results. We prioritize safety, efficiency, and customer satisfaction in every project we
                 undertake.</p>
-        </div> --}}
+        </div>
 
         <div class="row gy-4">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item  position-relative">
-                    <div class="icon">
-                        <i class="fa-solid fa-hill-rockslide"></i>
-                    </div>
-                    <h3>Mining & Dredging</h3>
-                    <p>Welcome to our mining services! Our team of mining experts provides a wide range of services to help you navigate the complex and ever-changing landscape of the mining industry. From exploration to production, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include mining engineering, geology, resource estimation, mine planning, operations management, and more.</p>
-                    <a href="{{route('services-details1')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item position-relative">
-                    <div class="icon">
-                        <i class="fa-solid fa-trowel-bricks"></i>
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/website/mining1.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
                     </div>
-                    <h3>Construction</h3>
-                    <p>Welcome to our construction services! Our team of construction experts provides a wide range of services to help you build your dream project. From design to completion, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include construction management, project planning, design and engineering, contracting, construction supervision, and more.</p>
-                    <a href="{{route('services-details2')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-item position-relative">
+                    <div class="post-content d-flex flex-column">
 
-                    <div class="icon">
-                        <i class="fa-solid fa-tasks"></i>
+                        <h3 class="post-title">Mining & Dredging</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details1') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
                     </div>
-                    <h3>Project Management</h3>
-                    <p>Welcome to our project management services! Our team of project management experts provides a wide range of services to help you achieve your project goals. We offer practical advice, innovative solutions, and cutting-edge technologies to help you plan, execute, and control your projects. Our services include project planning, risk management, scheduling, cost management, quality control, and more.</p>
-                    <a href="{{route('services-details3')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                <div class="service-item position-relative">
-                    <div class="icon">
-                        <i class="fa-solid fa-globe-americas"></i>
-                    </div>
-                    <h3>Land Development</h3>
-                    <p>Welcome to our land development services! Our team of land development experts provides a wide range of services to help you develop your land. From planning to implementation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include land use planning, site design, zoning, permitting, environmental impact assessment, and more.</p>
-                    <a href="{{route('services-details4')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
                 </div>
-            </div><!-- End Service Item -->
+            </div><!-- End post item --><!-- End Service Item -->
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                <div class="service-item position-relative">
-                    <div class="icon">
-                        <i class="fa-solid fa-home"></i>
-                    </div>
-                    <h3>Smart Home Automation</h3>
-                    <p>Welcome to our smart home automation services! Our team of experts provides a wide range of services to help you automate your home. From design to installation, we offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your goals. Our services include home automation design, system installation, programming, maintenance, and more.</p>
-                    <a href="{{route('services-details5')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
-                </div>
-            </div><!-- End Service Item -->
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                <div class="service-item position-relative">
-                    <div class="icon">
-                        <i class="fa-solid fa-exchange"></i>
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/projects/construction-3.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
                     </div>
-                    <h3>Trading</h3>
-                    <p>Welcome to our trading services! Our team of trading experts provides a wide range of services to help you invest in the mining and construction industries. We offer practical advice, innovative solutions, and cutting-edge technologies to help you achieve your investment goals. Our services include investment analysis, market research, trading strategy development, risk management, and more.</p>
-                    <a href="{{route('services-details6')}}" class="readmore stretched-link">Learn more <i
-                            class="bi bi-arrow-right"></i></a>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Construction</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details2') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
                 </div>
-            </div><!-- End Service Item -->
+            </div><!-- End post item --><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/projects/design-2.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
+                    </div>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Project Management</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details3') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
+                </div>
+            </div><!-- End post item --><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/website/landdev1.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
+                    </div>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Land Development</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details4') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
+                </div>
+            </div><!-- End post item --><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/website/smarthome.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
+                    </div>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Smart Home Automation</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details5') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
+                </div>
+            </div><!-- End post item --><!-- End Service Item -->
+
+            <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="post-item position-relative h-100">
+
+                    <div class="post-img position-relative overflow-hidden">
+                        <img src="{{ asset('img/website/trading.jpg') }}" class="img-fluid" alt="">
+                        <span class="post-date"></span>
+                    </div>
+
+                    <div class="post-content d-flex flex-column">
+
+                        <h3 class="post-title">Trading</h3>
+
+                        <div class="meta d-flex align-items-center">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-person"></i> <span class="ps-2">partROCK</span>
+                            </div>
+                            <span class="px-3 text-black-50">/</span>
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-folder2"></i> <span class="ps-2">Services Offered</span>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <a href="{{ route('services-details6') }}" class="readmore stretched-link"><span>Read
+                                More</span><i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+
+                </div>
+            </div><!-- End post item --><!-- End Service Item -->
 
             {{-- <div class="col-lg-4 col-md-6 hidden" data-aos="fade-up" data-aos-delay="700">
                 <div class="service-item position-relative">
