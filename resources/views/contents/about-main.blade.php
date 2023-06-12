@@ -27,10 +27,7 @@
 
             <h3>Our Mission</h3>
             <p class="bi bi-check-circle"> Exist to be your best partner in mining and dredging or off-shore services, construction and trading of minerals as well. In mining/quarrying, we give complete package services as we provide equipment, hauling, and other related activities. For the off-shore dredging, we provide vessel, barges and equipment use to transfer loads. For trading, we trade/sell minerals such as silica sand, black sand, iron ore, construction sand, dredged marine and river sand, back filling materials, aggregates, blasted boulders and armor rocks. As for the construction, we construct houses, buildings, road networks, bridges and engineered sanitary landfills.</p>
-            <div class="watch-video d-flex align-items-center position-relative">
-              <i class="bi bi-play-circle"></i>
-              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox stretched-link">Watch Video</a>
-            </div>
+
           </div>
         </div>
         <div class="col-lg-7 about-img" style="background-image: url({{ asset('img/about.jpg') }})"></div>
