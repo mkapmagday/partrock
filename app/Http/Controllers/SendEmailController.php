@@ -13,7 +13,7 @@ class SendEmailController extends Controller
      */
     public function sendEmail(Request $request)
     {
-        $email = 'mkapmagday@tip.edu.ph';
+        $email = 'partrockservices@gmail.com';
     
         // Sanitize user input using urlencode()
         $name = $request->name;
