@@ -86,6 +86,11 @@ Route::get('/blog-details2', function(){
     return view('blog-details2');
 })->name('blog-details2');
 
+Route::get('/sitemap.xml', function(){
+    return view('sitemap.xml');
+});
+
+
 Route::post('/send-email', [SendEmailController::class, 'sendEmail'])->name('sendEmail');
 
 
